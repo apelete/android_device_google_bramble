@@ -27,4 +27,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=google/bramble/bramble:14/UP1A.231105.001.B2/11260668:user/release-keys \
     DeviceProduct=bramble
 
+TARGET_USES_MINI_GAPPS := true
+
 $(call inherit-product, vendor/google/bramble/bramble-vendor.mk)
