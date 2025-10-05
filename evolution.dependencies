@@ -6,11 +6,13 @@
   {
     "repository": "device_google_redbull",
     "target_path": "device/google/redbull",
-    "branch": "bramble/bka"
+    "branch": "bka"
   },
   {
-    "repository": "vendor_google_bramble",
-    "target_path": "vendor/google/bramble"
+    "repository": "apelete/proprietary_vendor_google_bramble",
+    "target_path": "vendor/google/bramble",
+    "remote" : "github-non-los",
+    "branch": "lineage-23.0"
   },
   {
     "repository": "kernel_google_redbull",
